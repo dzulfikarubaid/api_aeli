@@ -27,8 +27,8 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('dpd_list/', views.Dpd, name='dpd_list'),
-    path('dpp_list/', views.Dpp, name='dpp_list'),
+    path('dpd_list/', views.dpd_list, name='dpd_list'),
+    path('dpp_list/', views.dpp_list, name='dpp_list'),
 
     
 ]
